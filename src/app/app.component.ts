@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'childtoParent';
+  data = 'Bruce';
+  changedData(data: any) {
+    this.data = data;
+  }
 }
